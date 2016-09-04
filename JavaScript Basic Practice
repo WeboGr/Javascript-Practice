@@ -1,5 +1,4 @@
-1.	Collatz Conjecture (3n+1):
-		The Collatz conjecture (also known as 3n+1 conjecture) is a conjecture that applying the following algorithm to any number we will always eventually reach one:
+1.	Collatz Conjecture (3n+1): The Collatz conjecture (also known as 3n+1 conjecture) is a conjecture that applying the following algorithm to any number we will always eventually reach one:
 
 	  [This is writen in pseudocode]
 	  if(number is even) number = number / 2
@@ -10,11 +9,9 @@
 	  Example : 
 	  hotpo(1) returns 0
 	  (1 is already 1)
-	  
 	  hotpo(5) returns 5
 	  5 -> 16 -> 8 -> 4 -> 2 -> 1
-	  
 	  hotpo(6) returns 8
 	  6 -> 3 -> 10 -> 5 -> 16 -> 8 -> 4 -> 2 -> 1
 	  
-2.	ss
+2.	Write a function that accepts two arguments and returns the remainder after dividing the larger number by the smaller number. Division by zero should return NaN. Arguments will both be integers.
